@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <path id="a" d="M12 26.984A7.5 7.5 0 0 0 19.984 19H20V0h14v33a8 8 0 0 1-8 8H0V27h12v-.016z"/>
+        <path id="b" d="M12 25.984A7.5 7.5 0 0 0 19.984 18H20V0h14v32a8 8 0 0 1-8 8H0V26h12v-.016z"/>
+        <path id="c" d="M0 0h52v56H0z"/>
+        <path id="d" d="M7 4h38a3 3 0 0 1 3 3v42a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3z"/>
+        <path id="e" d="M3 0h26a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V3a3 3 0 0 1 3-3z"/>
+        <path id="f" d="M3 0h26a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V3a3 3 0 0 1 3-3z"/>
+        <path id="g" d="M75 17.27v4.757h-5.708V25L62 19.649 69.292 14v3.27z"/>
+        <path id="h" d="M75 78.27v4.757h-5.708V86L62 80.649 69.292 75v3.27z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(58 2)">
+            <use fill="#B7B8B2" xlink:href="#a"/>
+            <path stroke="#000" stroke-opacity=".32" stroke-width="2" d="M20.986 20a8.633 8.633 0 0 0-.005-1.066l-.997.066v1h1.002zM21 1V0l-1 1h1zm12 0h1l-1-1v1zM1 40H0l1 1v-1zm0-12v-1l-1 1h1zm12-.014v-1.002h-1l-.066.997a8.612 8.612 0 0 0 1.066.005z"/>
+        </g>
+        <path fill="#B7B8B2" d="M80 2h10v2H80z"/>
+        <g fill="#7C7C78">
+            <path d="M65 34h2v2h-2zM62 32h2v2h-2zM69 34h2v2h-2zM68 38h2v2h-2zM71 37h2v2h-2zM63 37h2v2h-2zM67 36h1v1h-1zM73 34h1v1h-1zM67 33h1v1h-1zM69 32h1v1h-1z"/>
+        </g>
+        <g fill="#7C7C78">
+            <path d="M81 6h2v2h-2zM82 3h2v2h-2zM85 7h2v2h-2zM86 4h2v2h-2zM84 11h2v2h-2zM87 10h2v2h-2zM81 10h2v2h-2zM83 9h1v1h-1zM88 7h1v1h-1zM88 3h1v1h-1zM84 5h1v1h-1zM81 4h1v1h-1z"/>
+        </g>
+        <g fill="#7C7C78">
+            <path d="M87 14h2v2h-2zM84 17h2v2h-2zM81 13h2v2h-2zM85 20h2v2h-2zM84 23h2v2h-2zM81 25h2v2h-2zM81 29h2v2h-2zM87 28h2v2h-2zM85 30h2v2h-2zM82 34h2v2h-2zM78 37h2v2h-2zM85 36h2v2h-2zM82 38h2v2h-2zM74 32h2v2h-2zM77 30h2v2h-2zM87 18h2v2h-2zM81 19h2v2h-2zM82 17h1v1h-1zM86 14h1v1h-1zM84 15h1v1h-1zM87 17h1v1h-1zM83 21h1v1h-1zM81 23h1v1h-1zM88 23h1v1h-1zM87 24h1v1h-1zM88 25h1v1h-1zM86 27h1v1h-1zM85 26h1v1h-1zM82 27h1v1h-1zM84 27h1v1h-1zM84 29h1v1h-1zM79 28h1v1h-1zM72 32h1v1h-1zM77 32h1v1h-1zM79 35h1v1h-1zM74 39h1v1h-1zM72 36h1v1h-1zM76 39h1v1h-1zM77 34h1v1h-1zM88 31h1v1h-1zM80 39h1v1h-1zM85 39h1v1h-1zM66 39h1v1h-1zM62 39h1v1h-1zM62 36h1v1h-1zM63 34h1v1h-1zM65 32h1v1h-1zM74 37h1v1h-1zM76 36h1v1h-1zM80 36h1v1h-1zM87 33h1v1h-1zM88 35h1v1h-1zM83 32h1v1h-1zM80 31h1v1h-1zM79 33h1v1h-1zM85 34h1v1h-1z"/>
+        </g>
+        <g>
+            <g transform="matrix(1 0 0 -1 58 97)">
+                <use fill="#B7B8B2" xlink:href="#b"/>
+                <path stroke="#000" stroke-opacity=".32" stroke-width="2" d="M20.986 19a8.633 8.633 0 0 0-.005-1.066l-.997.066v1h1.002zM21 1V0l-1 1h1zm12 0h1l-1-1v1zM1 39H0l1 1v-1zm0-12v-1l-1 1h1zm12-.014v-1.002h-1l-.066.997a8.612 8.612 0 0 0 1.066.005z"/>
+            </g>
+            <path fill="#B7B8B2" d="M80 97h10v-2H80z"/>
+        </g>
+        <g>
+            <g transform="translate(8 22)">
+                <use fill="#B7B8B2" xlink:href="#c"/>
+                <path stroke="#000" stroke-opacity=".32" d="M.5.5h51v55H.5z"/>
+            </g>
+            <g transform="translate(8 22)">
+                <use fill="#8D8B8C" xlink:href="#d"/>
+                <path stroke="#000" stroke-opacity=".4" d="M7 4.5A2.5 2.5 0 0 0 4.5 7v42A2.5 2.5 0 0 0 7 51.5h38a2.5 2.5 0 0 0 2.5-2.5V7A2.5 2.5 0 0 0 45 4.5H7z"/>
+            </g>
+            <g transform="translate(18 33)">
+                <use fill="#B7B8B2" xlink:href="#e"/>
+                <path stroke="#000" stroke-opacity=".56" d="M3 .5A2.5 2.5 0 0 0 .5 3v8A2.5 2.5 0 0 0 3 13.5h26a2.5 2.5 0 0 0 2.5-2.5V3A2.5 2.5 0 0 0 29 .5H3z"/>
+                <rect width="3" height="8" x="8" y="3" fill="#000" rx="1.5"/>
+                <rect width="3" height="8" x="14" y="3" fill="#000" rx="1.5"/>
+                <rect width="3" height="8" x="20" y="3" fill="#000" rx="1.5"/>
+            </g>
+            <g transform="translate(18 53)">
+                <use fill="#B7B8B2" xlink:href="#f"/>
+                <path stroke="#000" stroke-opacity=".56" d="M3 .5A2.5 2.5 0 0 0 .5 3v8A2.5 2.5 0 0 0 3 13.5h26a2.5 2.5 0 0 0 2.5-2.5V3A2.5 2.5 0 0 0 29 .5H3z"/>
+                <rect width="3" height="8" x="8" y="3" fill="#000" rx="1.5"/>
+                <rect width="3" height="8" x="14" y="3" fill="#000" rx="1.5"/>
+                <rect width="3" height="8" x="20" y="3" fill="#000" rx="1.5"/>
+            </g>
+        </g>
+        <g>
+            <use fill="#8D8B8C" xlink:href="#g"/>
+            <path stroke="#000" stroke-opacity=".4" d="M74.5 17.77h-5.708v-2.75l-5.962 4.618 5.962 4.375v-2.486H74.5V17.77z"/>
+        </g>
+        <g transform="matrix(-1 0 0 1 137 0)">
+            <use fill="#8D8B8C" xlink:href="#h"/>
+            <path stroke="#000" stroke-opacity=".4" d="M74.5 78.77h-5.708v-2.75l-5.962 4.618 5.962 4.375v-2.486H74.5V78.77z"/>
+        </g>
+    </g>
+</svg>

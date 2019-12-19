@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <circle id="a" cx="20.5" cy="27.5" r="20.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="matrix(-1 0 0 1 71 21)">
+            <ellipse cx="20.5" cy="30" fill="#000" rx="20.5" ry="23"/>
+            <use fill="#858585" xlink:href="#a"/>
+            <circle cx="20.5" cy="27.5" r="20" stroke="#5E5E5E"/>
+            <path fill="#000" d="M3.276 13.008V6.995l54.072 50.28v5.876z"/>
+            <path fill="#000" d="M11.24 10.056l44.9 49.935a4.601 4.601 0 0 1-.342 6.495 4.595 4.595 0 0 1-6.491-.342L4.405 16.21a4.601 4.601 0 0 1 .343-6.496 4.595 4.595 0 0 1 6.491.342z"/>
+            <path fill="#48CB3C" d="M11.645 4.654l43.944 48.87a4.503 4.503 0 0 1-.335 6.358 4.497 4.497 0 0 1-6.353-.335L4.956 10.676a4.503 4.503 0 0 1 .336-6.357 4.497 4.497 0 0 1 6.353.335z"/>
+            <path fill="#F9F9F9" d="M22.138 16.44l33.447 37.089a4.497 4.497 0 0 1-.33 6.353 4.503 4.503 0 0 1-6.359-.331L15.45 22.46l6.688-6.021z"/>
+            <path stroke="#5E5E5E" d="M10.867 4.39l-.001-.001a4.095 4.095 0 0 0-5.784-.303 4.101 4.101 0 0 0-.305 5.79L49.678 59.81l.002.002a4.095 4.095 0 0 0 5.783.303 4.101 4.101 0 0 0 .306-5.79L10.867 4.391z"/>
+        </g>
+        <text fill="#000" font-family="HelveticaNeue, Helvetica Neue" font-size="10" letter-spacing="-.111">
+            <tspan x="18" y="18">H</tspan>
+        </text>
+        <text fill="#000" font-family="HelveticaNeue, Helvetica Neue" font-size="10" letter-spacing="-.111">
+            <tspan x="75" y="18">B</tspan>
+        </text>
+    </g>
+</svg>

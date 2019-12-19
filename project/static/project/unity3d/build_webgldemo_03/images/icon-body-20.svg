@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <path id="b" d="M27 18h10l1 3h24l1-3h10v64H63l-2-3-21.773.129L37 82H27V18zm10 10v44h26V28H37z"/>
+        <filter id="a" width="108.7%" height="106.2%" x="-2.2%" y="-1.6%" filterUnits="objectBoundingBox">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"/>
+            <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.531533062 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#D5D5D5" xlink:href="#b"/>
+            <path stroke="#000" stroke-opacity=".24" d="M27.5 18.5v63h9.255l2.226-2.87 22.286-.132 2 3.002H72.5v-63h-9.14l-1 3H37.64l-1-3H27.5zm9 9h27v45h-27v-45z"/>
+        </g>
+        <path fill="#414141" d="M30 21h3v1h-3zM67 78h3v1h-3z"/>
+        <g stroke="#414141">
+            <path fill="#414141" stroke-linecap="square" d="M25.5 10.5h13.023M38.523 10.5l-10.8-3v6l10.8-3zM18.5 15.5V28M18.5 28l3-10.8h-6l3 10.8z"/>
+            <path d="M18.5 16.5c.795-2.346 1.628-3.846 2.5-4.5.872-.654 2.705-1.154 5.5-1.5"/>
+        </g>
+        <g stroke="#414141">
+            <path fill="#414141" stroke-linecap="square" d="M75.5 91.5H62.477M62.477 91.5l10.8 3v-6l-10.8 3zM82.5 86.5V74M82.5 74l-3 10.8h6l-3-10.8z"/>
+            <path d="M82.5 85.5c-.795 2.346-1.628 3.846-2.5 4.5-.872.654-2.705 1.154-5.5 1.5"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <path id="a" d="M5 7h89v86H5z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <use fill="#EEE" xlink:href="#a"/>
+            <path stroke="#000" stroke-opacity=".48" d="M5.5 7.5v85h88v-85h-88z"/>
+        </g>
+        <path fill="#7C7C7C" d="M16 44h1v49h-1zM27 32h1v61h-1zM38 32h1v61h-1zM49 32h1v61h-1zM60 32h1v61h-1zM71 32h1v49h-1zM82 32h1v49h-1z"/>
+        <path fill="#7C7C7C" d="M6 80h87v1H6zM6 68h87v1H6zM6 56h87v1H6zM6 44h87v1H6zM6 32h87v1H6z"/>
+        <text fill="#000" font-family="HelveticaNeue, Helvetica Neue" font-size="14" letter-spacing="-.156">
+            <tspan x="32.293" y="25">JUNE</tspan>
+        </text>
+    </g>
+</svg>

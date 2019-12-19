@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <circle id="a" cx="32.5" cy="40.5" r="20.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(18 8)">
+        <text fill="#000" font-family="HelveticaNeue, Helvetica Neue" font-size="10" letter-spacing="-.111">
+            <tspan x="0" y="10">0</tspan>
+        </text>
+        <text fill="#000" font-family="HelveticaNeue, Helvetica Neue" font-size="10" letter-spacing="-.111">
+            <tspan x="57" y="10">1</tspan>
+        </text>
+        <ellipse cx="32.5" cy="43" fill="#000" rx="20.5" ry="23"/>
+        <use fill="#858585" xlink:href="#a"/>
+        <circle cx="32.5" cy="40.5" r="20" stroke="#5E5E5E"/>
+        <path fill="#000" d="M15.276 26.008v-6.013l54.072 50.28v5.876z"/>
+        <path fill="#000" d="M23.24 23.056l44.9 49.935a4.601 4.601 0 0 1-.342 6.495 4.595 4.595 0 0 1-6.491-.342L16.405 29.21a4.601 4.601 0 0 1 .343-6.496 4.595 4.595 0 0 1 6.491.342z"/>
+        <path fill="#B13224" d="M23.645 17.654l43.944 48.87a4.503 4.503 0 0 1-.335 6.358 4.497 4.497 0 0 1-6.353-.335L16.956 23.676a4.503 4.503 0 0 1 .336-6.357 4.497 4.497 0 0 1 6.353.335z"/>
+        <path fill="#F9F9F9" d="M34.138 29.44l33.447 37.089a4.497 4.497 0 0 1-.33 6.353 4.503 4.503 0 0 1-6.359-.331L27.45 35.46l6.688-6.021z"/>
+        <path stroke="#5E5E5E" d="M22.867 17.39l-.001-.001a4.095 4.095 0 0 0-5.784-.303 4.101 4.101 0 0 0-.305 5.79L61.678 72.81l.002.002a4.095 4.095 0 0 0 5.783.303 4.101 4.101 0 0 0 .306-5.79L22.867 17.391z"/>
+    </g>
+</svg>

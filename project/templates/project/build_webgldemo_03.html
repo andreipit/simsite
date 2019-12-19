@@ -1,0 +1,196 @@
+{% extends "base/base.html" %}
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | WebglDemo_03</title>
+<!--     <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="{% static 'project/unity3d/build_webgldemo_03/TemplateData/style.css' %}">
+    <script src="{% static 'project/unity3d/build_webgldemo_03/TemplateData/UnityProgress.js' %}"></script>  
+    <script src="{% static 'project/unity3d/build_webgldemo_03/Build/UnityLoader.js' %}"></script>  
+
+
+    <script>
+      // var gameInstance = UnityLoader.instantiate("gameContainer", "Build/build_webgldemo_03.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "{% static 'project/unity3d/build_webgldemo_03/Build/build_webgldemo_03.json' %}", {onProgress: UnityProgress});
+    </script>
+
+
+
+
+
+
+
+
+  </head>
+  <body>
+    <h1 class="display-7">Симулятор работы с пультами в литейном цеху</h1>
+    
+    <div class="webgl-content">
+      <!-- <div id="gameContainer" style="width: 960px; height: 600px"></div> -->
+      <div id="gameContainer" style="width: 1400px; height: 800px"></div>
+      <!-- <div id="gameContainer" style="width: 1280px; height: 720px"></div> -->
+      <div class="footer" >
+        <div class="webgl-logo" style="display:none;></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)" style="display:none;"></div>
+        <div class="title" style="display:none;">WebglDemo_03</div>
+      </div>
+       <iframe id="WScreen" name="WScreenFrame" height="800" width="1400" style="display:none; "></iframe>
+       <!-- <iframe height="1080" width="1400" style="display:block; " src="{% url 'project:prac_1_01' %}"></iframe> -->
+       <!-- <iframe id="WScreen" name="WScreenFrame" height="1080" width="1400" style="display:none; " src="{% static 'project/unity3d/build_webgldemo_03/html3/prac_1_01.html?subtask=centrovka" ></iframe> -->
+      <button id="mybutt" type="button"  style="background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: none; font-size: 16px;float: right;">Вернуться</button>
+
+
+    </div>
+
+
+
+
+
+
+
+
+  </body>
+</html>
+{% endblock %}
+
+<script type ="text/javascript">
+    // $('iframe').style.display = "block";
+    // $('#gameContainer').style.display = "none";
+    var event = new Event('build');
+    var event_screen_2 = new Event('build2');
+    var event_screen_3 = new Event('build3');
+    var event_screen_4 = new Event('build4');
+    var event_screen_5 = new Event('build5');
+    var event_screen_6 = new Event('build6');
+    var event_screen_7 = new Event('build7');
+    var event2 = new Event('debuild');
+    var event3 = new Event('send_done');
+
+    // Listen for the event.
+    document.getElementById("WScreen").addEventListener('build', function (e) { 
+      this.style.display = 'block'; /* ... */ 
+      document.getElementById("gameContainer").style.display = 'none';
+      document.getElementById("mybutt").style.display = 'inline-block';
+      this.contentWindow.location.reload();
+      // var site = "file:///D:/project/skladmax/skladmax_01/project/static/project/unity3d/build_webgldemo_03/html3/prac_1_01.html?subtask=centrovka";
+      var site = "{% url 'project:prac_1_01' %}";
+      document.getElementById('WScreen').src = site;
+    }, false);
+
+    document.getElementById("WScreen").addEventListener('build2', function (e) { 
+      this.style.display = 'block'; /* ... */ 
+      document.getElementById("gameContainer").style.display = 'none';
+      document.getElementById("mybutt").style.display = 'inline-block';
+      this.contentWindow.location.reload();
+      var site = "{% static 'project/unity3d/build_webgldemo_03/html3/prac_1_02.html?subtask=fix' %}";
+      document.getElementById('WScreen').src = site;
+    }, false);
+
+    document.getElementById("WScreen").addEventListener('build3', function (e) { 
+      this.style.display = 'block'; /* ... */ 
+      document.getElementById("gameContainer").style.display = 'none';
+      document.getElementById("mybutt").style.display = 'inline-block';
+      this.contentWindow.location.reload();
+      var site = "{% static 'project/unity3d/build_webgldemo_03/html3/prac_4_01.html?subtask=prostoi' %}";
+      document.getElementById('WScreen').src = site;
+    }, false);
+
+    document.getElementById("WScreen").addEventListener('build4', function (e) { 
+      this.style.display = 'block'; /* ... */ 
+      document.getElementById("gameContainer").style.display = 'none';
+      document.getElementById("mybutt").style.display = 'inline-block';
+      this.contentWindow.location.reload();
+      var site = "{% static 'project/unity3d/build_webgldemo_03/html3/prac_1_02.html?subtask=downup' %}";
+      document.getElementById('WScreen').src = site;
+    }, false);
+
+    document.getElementById("WScreen").addEventListener('build5', function (e) { 
+      this.style.display = 'block'; /* ... */ 
+      document.getElementById("gameContainer").style.display = 'none';
+      document.getElementById("mybutt").style.display = 'inline-block';
+      this.contentWindow.location.reload();
+      var site = "{% static 'project/unity3d/build_webgldemo_03/html3/prac_1_02.html?subtask=down' %}";
+      document.getElementById('WScreen').src = site;
+    }, false);
+
+    document.getElementById("WScreen").addEventListener('build6', function (e) { 
+      this.style.display = 'block'; /* ... */ 
+      document.getElementById("gameContainer").style.display = 'none';
+      document.getElementById("mybutt").style.display = 'inline-block';
+      this.contentWindow.location.reload();
+      var site = "{% static 'project/unity3d/build_webgldemo_03/html3/prac_3_01.html?subtask=lifting' %}";
+      document.getElementById('WScreen').src = site;
+    }, false);
+
+    document.getElementById("WScreen").addEventListener('build7', function (e) { 
+      this.style.display = 'block'; /* ... */ 
+      document.getElementById("gameContainer").style.display = 'none';
+      document.getElementById("mybutt").style.display = 'inline-block';
+      this.contentWindow.location.reload();
+      var site = "{% static 'project/unity3d/build_webgldemo_03/html3/prac_3_03.html?subtask=descent' %}";
+      document.getElementById('WScreen').src = site;
+    }, false);
+
+
+
+    document.getElementById("WScreen").addEventListener('debuild', function (e) { 
+
+      this.style.display = 'none'; /* ... */ 
+      document.getElementById("gameContainer").style.display = 'block';
+      document.getElementById("mybutt").style.display = 'none';
+      // document.getElementsByClassName("footer").style.display = 'block';
+      // document.getElementById("gameFooter").style.display = 'block';
+      gameInstance.SendMessage('limca_screen', 'ActivateDone');
+      document.getElementById("gameContainer").focus()
+      console.log(222)
+    }, false);
+      
+
+    document.getElementById("WScreen").addEventListener('send_done', function (e) { 
+      gameInstance.SendMessage('limca_screen', 'ActivateDone');
+      this.contentWindow.location.reload();
+
+    }, false);              
+
+
+
+
+    // Hello();
+
+    // gameInstance.SendMessage('limca_screen', 'EndState');
+    // gameInstance.Hello();
+
+    // Dispatch the event.
+    // document.getElementById("WScreen").dispatchEvent(event);
+
+
+    // document.getElementById("WScreen").style.display = 'block';
+
+    document.getElementById("mybutt").addEventListener('click', function (e) { 
+
+        document.getElementById("WScreen").style.display = 'none'; /* ... */ 
+        document.getElementById("gameContainer").style.display = 'block';
+        document.getElementById("mybutt").style.display = 'none';
+        document.getElementById("gameContainer").focus()
+
+        gameInstance.SendMessage('limca_screen', 'ActivateBack');
+
+    }, false); 
+
+    // $(function(){
+    //   $('#mybutt').on('click',function(){
+    //     console.log(222)
+    //   })
+    // });
+
+
+</script>
+

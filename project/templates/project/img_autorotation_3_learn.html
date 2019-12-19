@@ -1,0 +1,120 @@
+{% extends "base/base.html" %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'base/style.css' %}">
+{% block content %}
+
+
+
+    <div style="height:100px"></div>
+    <!-- img_autorotation 1<br> -->
+    <!-- MEDIA_URL = {#{MEDIA_URL}#}<br> -->
+    <!-- img_autorotation learn<br> -->
+    <div class="col-12 col-sm-8 col-md-8 col-lg-8">
+{% comment %}       
+        <div class="row">
+            <div><a href="{% url 'project:img_autorotation_6_downloadall' %}">Скачать все картинки</a></div><hr></br>
+        </div>
+{% endcomment %}       
+
+        <div class="row">
+            <form action="{% url 'project:img_autorotation_5_start'%}" method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                <input type="submit" value="Начать обучение">
+            </form><br>
+            <form action="{% url 'project:img_autorotation_5_2_savednn'%}" method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                <input type="submit" value="Использовать готовую нейросеть">
+            </form>
+        </div>
+
+        <div class="row">
+            {% for img_name in images %} 
+                <div class="col-sm-6 col-md-3 col-lg-2">
+                    <div class="card mb-4 shadow-sm">
+
+
+
+
+                        <img style="display: block;margin: 0 auto;max-width:100%;max-height:100px;" src="{{MEDIA_URL}}products/predict/sideways/{{img_name}}">
+
+
+                        <form action="{% url 'project:img_autorotation_4_rotate' 90 %}" method="POST" enctype="multipart/form-data">
+                            {% csrf_token %}
+                            <input type="submit" value="Повернуть на 90">
+                            <input type="hidden" id="custId" name="img_name" value="{{img_name}}">
+                            <input type="hidden" id="custId2" name="next_url" value="{{request.build_absolute_uri}}">
+                        </form>
+{% comment %}       
+                        <form action="{% url 'project:img_autorotation_4_rotate' 270 %}" method="POST" enctype="multipart/form-data">
+                            {% csrf_token %}
+                            <input type="submit" value="Повернуть на 180">
+                            <input type="hidden" id="custId" name="img_name" value="{{img_name}}">
+                            <input type="hidden" id="custId2" name="next_url" value="{{request.build_absolute_uri}}">
+                        </form>
+                        <form action="{% url 'project:img_autorotation_4_rotate' 180 %}" method="POST" enctype="multipart/form-data">
+                            {% csrf_token %}
+                            <input type="submit" value="Повернуть на 90 против часовой">
+                            <input type="hidden" id="custId" name="img_name" value="{{img_name}}">
+                            <input type="hidden" id="custId2" name="next_url" value="{{request.build_absolute_uri}}">
+                        </form>
+{% endcomment %}       
+                        <form action="{% url 'project:img_autorotation_4_rotate' 0 %}" method="POST" enctype="multipart/form-data">
+                            {% csrf_token %}
+                            <input type="submit" value="Все правильно">
+                            <input type="hidden" id="custId" name="img_name" value="{{img_name}}">
+                            <input type="hidden" id="custId2" name="next_url" value="{{request.build_absolute_uri}}">
+                        </form>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+
+    </div>
+
+
+{% endblock %}
+
+
+{% comment %}       
+<img style="height: 225px; width: 100%; display: block;" src="/media/no_image.jpg">
+                    <img src="{% static "polls/no_image.jpg" %}" alt="My image">
+                    <img src="{{my_media_root}}/12345.jpg" style="display: block;margin: 0 auto;max-width:100%;max-height:225px;">
+
+                    <img src="media/12345.jpg" style="display: block;margin: 0 auto;max-width:100%;max-height:225px;">
+                    <img src="{{MEDIA_URL}}products/predict/sideways/{{img_name}}" style="display: block;margin: 0 auto;max-width:100%;max-height:225px;">
+
+<div class="col-12 col-sm-8 col-md-8 col-lg-8">
+            <!-- PRODUCTS -->
+            <div class="row">
+                {% for product in products %} 
+                    {% if products.count == 1  and product_page != False%}<div class="col-md-12">{% else %}<div class="col-sm-12 col-md-6 col-lg-4">{% endif %}
+                      <div class="card mb-4 shadow-sm">
+
+                        <!-- PROD NAME -->
+                        <div class="card-body"><div><span><a href="{% url 'product:index' product.id%}">{{product.product_name}}</a></span></div></div>
+
+                        <!-- PROD IMG -->
+                        {% if products.count == 1 and product_page != False%}
+                            <img src="{{ images|get_item:product.id }}" style="display: block;margin: 0 auto;max-width:100%;max-height:2720px;">
+                        {% else %}
+                            <a href="{% url 'product:index' product.id %}" >
+                            
+                            {% with img_name=images|get_item:product.id %}
+                                    <!-- works good without resize --><img src="{{ img_name }}" style="display: block;margin: 0 auto;max-width:100%;max-height:225px;">
+                            {% endwith %}
+                            </a>
+                        {% endif %}
+
+                      </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+
+    </div>
+{% endcomment %}                        
+
+
+

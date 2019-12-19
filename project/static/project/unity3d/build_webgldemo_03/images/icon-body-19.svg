@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <path id="a" d="M30 2v29h40V2h14v43l-20.254-.281L29 45l-13-8V2h14z"/>
+        <filter id="b" width="101.5%" height="102.3%" x="-.7%" y="-1.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="-1" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0.635294118 0 0 0 0 0.635294118 0 0 0 0 0.635294118 0 0 0 1 0"/>
+            <feOffset dx="-1" in="SourceAlpha" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.635294118 0 0 0 0 0.635294118 0 0 0 0 0.635294118 0 0 0 1 0"/>
+            <feOffset dx="1" in="SourceAlpha" result="shadowOffsetInner3"/>
+            <feComposite in="shadowOffsetInner3" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner3"/>
+            <feColorMatrix in="shadowInnerInner3" result="shadowMatrixInner3" values="0 0 0 0 0.635294118 0 0 0 0 0.635294118 0 0 0 0 0.635294118 0 0 0 1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+                <feMergeNode in="shadowMatrixInner3"/>
+            </feMerge>
+        </filter>
+        <path id="c" d="M22 51h10v16H22z"/>
+        <filter id="d" width="110%" height="106.2%" x="-5%" y="-3.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="-1" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0.635294118 0 0 0 0 0.635294118 0 0 0 0 0.635294118 0 0 0 1 0"/>
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.635294118 0 0 0 0 0.635294118 0 0 0 0 0.635294118 0 0 0 1 0"/>
+            <feOffset dx="-1" in="SourceAlpha" result="shadowOffsetInner3"/>
+            <feComposite in="shadowOffsetInner3" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner3"/>
+            <feColorMatrix in="shadowInnerInner3" result="shadowMatrixInner3" values="0 0 0 0 0.635294118 0 0 0 0 0.635294118 0 0 0 0 0.635294118 0 0 0 1 0"/>
+            <feOffset dx="1" in="SourceAlpha" result="shadowOffsetInner4"/>
+            <feComposite in="shadowOffsetInner4" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner4"/>
+            <feColorMatrix in="shadowInnerInner4" result="shadowMatrixInner4" values="0 0 0 0 0.635294118 0 0 0 0 0.635294118 0 0 0 0 0.635294118 0 0 0 1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+                <feMergeNode in="shadowMatrixInner3"/>
+                <feMergeNode in="shadowMatrixInner4"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#41B236" stroke="#41B236" stroke-linecap="square" d="M10.5 87.5h78M88.5 87.5l-10.8-3v6l10.8-3z"/>
+        <g>
+            <use fill="#D5D5D5" xlink:href="#a"/>
+            <use fill="#000" filter="url(#b)" xlink:href="#a"/>
+        </g>
+        <path fill="#56555D" d="M30 28h4v3h-4zM66 28h4v3h-4z"/>
+        <g>
+            <use fill="#D5D5D5" xlink:href="#c"/>
+            <use fill="#000" filter="url(#d)" xlink:href="#c"/>
+        </g>
+        <path fill="#A2A2A2" d="M29 31h42v1H29z"/>
+        <path fill="#56555D" d="M31 45h38v28H31z"/>
+    </g>
+</svg>

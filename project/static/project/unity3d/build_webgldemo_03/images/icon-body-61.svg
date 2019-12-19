@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <path id="a" d="M72 27H28v48h-4V23h52v52h-4V27z"/>
+        <path id="b" d="M8 49h22v4H8z"/>
+        <path id="c" d="M70 49h22v4H70z"/>
+        <path id="d" d="M23 53h54v32H23z"/>
+        <path id="e" d="M11 52l10 46h58l10-46H71L56 84H44L29 52z"/>
+        <path id="f" d="M22 52l15 33h26l15-33h-7L56 84H44L29 52z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <use fill="#BFBBB5" xlink:href="#a"/>
+            <path stroke="#000" stroke-opacity=".32" d="M72.5 74.5h3v-51h-51v51h3v-48h45v48z"/>
+        </g>
+        <path fill="#414141" d="M40 11h20v12H40z"/>
+        <g>
+            <use fill="#BFBBB5" xlink:href="#b"/>
+            <path stroke="#000" stroke-opacity=".32" d="M8.5 49.5h21v3h-21z"/>
+        </g>
+        <g>
+            <use fill="#BFBBB5" xlink:href="#c"/>
+            <path stroke="#000" stroke-opacity=".32" d="M70.5 49.5h21v3h-21z"/>
+        </g>
+        <g>
+            <use fill="#EAEAE2" xlink:href="#d"/>
+            <path stroke="#000" stroke-opacity=".32" d="M23.5 53.5h53v31h-53z"/>
+        </g>
+        <g>
+            <use fill="#BFBBB5" xlink:href="#e"/>
+            <path stroke="#000" stroke-opacity=".32" d="M11.62 52.5l9.783 45h57.194l9.783-45H71.318l-15 32H43.682l-15-32H11.62z"/>
+        </g>
+        <g>
+            <use fill="#EAEAE2" xlink:href="#f"/>
+            <path stroke="#000" stroke-opacity=".32" d="M22.777 52.5l14.545 32h6.52-.16l-15-32h-5.905zm33.382 32h6.519l14.545-32h-5.905l-15 32h-.16z"/>
+        </g>
+        <path fill="#817E7A" d="M48 26h4v27h-4z"/>
+    </g>
+</svg>

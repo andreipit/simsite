@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <rect id="a" width="30" height="21" rx="2"/>
+        <path id="c" d="M0 0h28v11H0z"/>
+        <filter id="b" width="103.6%" height="127.3%" x="-1.8%" y="-13.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feColorMatrix in="shadowOffsetOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.619607843 0 0 0 0 0.690196078 0 0 0 0 0.843137255 0 0 0 1 0"/>
+            <feOffset dy="-1" in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feColorMatrix in="shadowOffsetOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0.620001616 0 0 0 0 0.690850837 0 0 0 0 0.845052083 0 0 0 1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+            </feMerge>
+        </filter>
+        <rect id="d" width="30" height="21" rx="2"/>
+        <path id="f" d="M0 0h28v11H0z"/>
+        <filter id="e" width="103.6%" height="127.3%" x="-1.8%" y="-13.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feColorMatrix in="shadowOffsetOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.619607843 0 0 0 0 0.690196078 0 0 0 0 0.843137255 0 0 0 1 0"/>
+            <feOffset dy="-1" in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feColorMatrix in="shadowOffsetOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0.620001616 0 0 0 0 0.690850837 0 0 0 0 0.845052083 0 0 0 1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#000" d="M8 54h31v2H8z"/>
+        <path fill="#EEEC97" fill-rule="nonzero" stroke="#000" d="M37 50.5V53h2.5l13.372-13.372-2.5-2.5L37 50.5zm18.805-13.805c.26-.26.26-.68 0-.94l-1.56-1.56a.664.664 0 0 0-.94 0l-2.22 2.22 2.5 2.5 2.22-2.22z"/>
+        <g transform="translate(26 8)">
+            <use fill="#FFF" xlink:href="#a"/>
+            <rect width="29" height="20" x=".5" y=".5" stroke="#000" stroke-opacity=".54" rx="2"/>
+        </g>
+        <g transform="translate(27 13)">
+            <use fill="#000" filter="url(#b)" xlink:href="#c"/>
+            <use fill="#B5C6EA" xlink:href="#c"/>
+        </g>
+        <path fill="#94A6CD" d="M27 15h28v4H27z"/>
+        <path fill="#8190AF" d="M27 15h28v1H27zM27 18h28v1H27z"/>
+        <path fill="#9EB0D7" d="M27 21h28v1H27z"/>
+        <g>
+            <g transform="translate(8 18)">
+                <use fill="#FFF" xlink:href="#d"/>
+                <rect width="29" height="20" x=".5" y=".5" stroke="#000" stroke-opacity=".54" rx="2"/>
+            </g>
+            <g transform="translate(9 23)">
+                <use fill="#000" filter="url(#e)" xlink:href="#f"/>
+                <use fill="#B5C6EA" xlink:href="#f"/>
+            </g>
+            <path fill="#9EB0D7" d="M9 25h28v1H9zM9 28h28v1H9zM9 31h28v1H9z"/>
+        </g>
+    </g>
+</svg>

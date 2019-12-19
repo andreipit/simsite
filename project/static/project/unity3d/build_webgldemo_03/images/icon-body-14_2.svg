@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <path id="a" d="M0 0h100v100H0z"/>
+        <filter id="b" width="102%" height="102%" x="-1%" y="-1%" filterUnits="objectBoundingBox">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0.843776573 0 0 0 0 0.843776573 0 0 0 0 0.843776573 0 0 0 0.668478261 0"/>
+            <feOffset dx="-2" dy="-2" in="SourceAlpha" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.197650935 0 0 0 0 0.197650935 0 0 0 0 0.197650935 0 0 0 1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <use fill="#F9F9F9" xlink:href="#a"/>
+            <use fill="#000" filter="url(#b)" xlink:href="#a"/>
+            <path stroke="#000" stroke-opacity=".38" d="M.5.5h99v99H.5z"/>
+        </g>
+        <path fill="#000" fill-rule="nonzero" d="M40.59 66.58L22.42 48.41 21 49.82l19.59 19.59 38-38L77.18 30z"/>
+    </g>
+</svg>

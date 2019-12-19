@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+        <path id="a" d="M4 0h47a4 4 0 0 1 4 4v31a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4z"/>
+        <path id="b" d="M4.5.333h47a4 4 0 0 1 4 4v31a4 4 0 0 1-4 4h-47a4 4 0 0 1-4-4v-31a4 4 0 0 1 4-4z"/>
+        <path id="c" d="M4 .5h47a4 4 0 0 1 4 4v31a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4v-31a4 4 0 0 1 4-4z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(49 16)">
+            <use fill="#FFF" xlink:href="#a"/>
+            <path stroke="#000" stroke-opacity=".54" d="M4 .5A3.5 3.5 0 0 0 .5 4v31A3.5 3.5 0 0 0 4 38.5h47a3.5 3.5 0 0 0 3.5-3.5V4A3.5 3.5 0 0 0 51 .5H4z"/>
+        </g>
+        <g fill="#9EB0D7">
+            <path d="M50 20h53v1H50zM50 25h53v1H50zM50 30h53v1H50zM50 35h53v1H50zM50 40h53v1H50zM50 45h53v1H50zM50 50h53v1H50z"/>
+        </g>
+        <g transform="translate(32.5 41.667)">
+            <use fill="#FFF" xlink:href="#b"/>
+            <path stroke="#000" stroke-opacity=".54" d="M4.5.833a3.5 3.5 0 0 0-3.5 3.5v31a3.5 3.5 0 0 0 3.5 3.5h47a3.5 3.5 0 0 0 3.5-3.5v-31a3.5 3.5 0 0 0-3.5-3.5h-47z"/>
+        </g>
+        <g fill="#9EB0D7">
+            <path d="M34 46h53v1H34zM34 51h53v1H34zM34 56h53v1H34zM34 61h53v1H34zM34 66h53v1H34zM34 71h53v1H34zM34 76h53v1H34z"/>
+        </g>
+        <g>
+            <g transform="translate(16 65.5)">
+                <use fill="#FFF" xlink:href="#c"/>
+                <path stroke="#000" stroke-opacity=".54" d="M4 1A3.5 3.5 0 0 0 .5 4.5v31A3.5 3.5 0 0 0 4 39h47a3.5 3.5 0 0 0 3.5-3.5v-31A3.5 3.5 0 0 0 51 1H4z"/>
+            </g>
+            <g fill="#9EB0D7">
+                <path d="M17 70h53v1H17zM17 75h53v1H17zM17 80h53v1H17zM17 85h53v1H17zM17 90h53v1H17zM17 95h53v1H17zM17 100h53v1H17z"/>
+            </g>
+        </g>
+    </g>
+</svg>

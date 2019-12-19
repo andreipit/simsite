@@ -1,0 +1,128 @@
+{% extends "base/base.html" %}
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Cousima Simulator</title>
+
+
+    <link rel="stylesheet" type="text/css" href="{% static 'project/unity3d/foundry/TemplateData/style.css' %}">
+    <script src="{% static 'project/unity3d/foundry/TemplateData/UnityProgress.js' %}"></script>  
+    <script src="{% static 'project/unity3d/foundry/Build/UnityLoader.js' %}"></script>  
+
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "{% static 'project/unity3d/foundry/Build/webgl_15.json' %}", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+
+
+
+
+
+
+
+
+    <!-- <h1 class="display-7">Симулятор литейного производства</h1> -->
+
+    <div class="webgl-content">
+
+      <img id="WScreen" src="{% static 'base/images/bg_main_loading.jpg' %}" height="720" width="1280" style="display:block;">
+
+      <div id="gameContainer" style="width: 1280px; height: 720px"></div>
+      <div class="footer">
+        <!-- <div class="webgl-logo"></div> -->
+
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <!-- <div class="title">WEB3D</div> -->
+
+
+      </div>
+
+
+
+    </div>
+<!--       <div>
+        <p class="lead font-weight-normal">Системные требования:</p>
+        <p class="lead font-weight-normal">1) процессор: не менее 2ГГц Core 2 DUO (или эквивалент);</p>
+        <p class="lead font-weight-normal">2) RAM: не менее 2ГБ (для OC MS Windows 7);</p>
+        <p class="lead font-weight-normal">3) Веб-браузер: Internet Explorer 7 и выше, Firefox 3.0 и выше;</p>
+        <p class="lead font-weight-normal">4) Видеоадаптер: </p>
+        <p class="lead font-weight-normal">- минимальные требования: PCI-E 3.0, Geforce GT 640, 2ГБ;</p>
+        <p class="lead font-weight-normal">- рекомендуемые требования: PCI-E 3.0, Geforce GTX 650, 2ГБ;</p>
+        <p class="lead font-weight-normal">5) Место на диске: 2 ГБ.</p>
+    
+      </div> -->
+<!--       Системные требования:
+        1) Операционная система: Windows XP, 7, 10;
+        2) Процессор: не менее 2ГГц Core 2 DUO (или эквивалент);
+        3) RAM: не менее 2ГБ;
+        4) Веб-браузер: Internet Explorer 7 и выше, Firefox 3.0 и выше;
+        5) Видеоадаптер: 
+        - минимальные требования: PCI-E 3.0, Geforce GT 640, 2ГБ;
+        - рекомендуемые требования: PCI-E 3.0, Geforce GTX 650, 2ГБ;
+        6) Место на диске: 2 ГБ.
+         -->
+      
+
+    <!-- <div id="WScreen" style="display:block;">WScreen</div> -->
+  </body>
+</html>
+
+
+
+<script type ="text/javascript">
+  document.getElementById("gameContainer").style.display = 'none';
+  document.getElementsByClassName("footer")[0].style.display = 'none';
+  document.getElementsByClassName("fullscreen")[0].style.display = 'none';
+
+  // var event = new Event("build", { bubbles: true, cancelable: false });
+  // window.dispatchEvent(event);
+
+  var event = new Event('build');
+
+  document.getElementById("WScreen").addEventListener('build', function (e) { 
+    this.style.display = 'none'; /* ... */ 
+    document.getElementById("gameContainer").style.display = 'block';
+    document.getElementsByClassName("footer")[0].style.display = 'block';
+    document.getElementsByClassName("fullscreen")[0].style.display = 'block';
+  }, false);
+   
+
+</script>
+
+{% endblock %}
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | production_simulator</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webgl_05.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">production_simulator</div>
+      </div>
+    </div>
+  </body>
+</html>
+ -->

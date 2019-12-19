@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <path id="a" d="M12 0h34v29H12z"/>
+        <path id="b" d="M45 5h10v19H45z"/>
+        <path id="c" d="M81 5a6 6 0 0 1 6 6v7a6 6 0 0 1-6 6V5z"/>
+        <path id="d" d="M79 1h3v27h-3z"/>
+        <path id="e" d="M54 0h5v29h-5z"/>
+        <path id="f" d="M71 0h5v29h-5z"/>
+        <path id="g" d="M59 31v-3h12v3h1v7H40v-7h19z"/>
+        <path id="h" d="M10 0h3v29h-3C4.477 29 0 24.523 0 19v-9C0 4.477 4.477 0 10 0z"/>
+        <circle id="i" cx="84" cy="16" r="8"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(6 48)">
+            <use fill="#858585" xlink:href="#a"/>
+            <path stroke="#5E5E5E" d="M12.5.5h33v28h-33z"/>
+        </g>
+        <path fill="#56555D" d="M18 49h33v5H18z"/>
+        <g transform="translate(6 48)">
+            <use fill="#D5D5D5" xlink:href="#b"/>
+            <path stroke="#5E5E5E" d="M45.5 5.5v18h9v-18h-9z"/>
+        </g>
+        <path stroke="#5E5E5E" d="M81.5 53.5v18h4v-18h-4z"/>
+        <g transform="translate(6 48)">
+            <use fill="#858585" xlink:href="#c"/>
+            <path stroke="#5E5E5E" d="M81.5 5.522v17.956a5.5 5.5 0 0 0 5-5.478v-7a5.5 5.5 0 0 0-5-5.478z"/>
+        </g>
+        <g transform="translate(6 48)">
+            <use fill="#D5D5D5" xlink:href="#d"/>
+            <path stroke="#5E5E5E" d="M79.5 1.5v26h2v-26h-2z"/>
+        </g>
+        <g transform="translate(6 48)">
+            <use fill="#B5C6EA" xlink:href="#e"/>
+            <path stroke="#5E5E5E" d="M54.5.5v28h4V.5h-4z"/>
+        </g>
+        <g transform="translate(6 48)">
+            <use fill="#B5C6EA" xlink:href="#f"/>
+            <path stroke="#5E5E5E" d="M71.5.5v28h4V.5h-4z"/>
+        </g>
+        <path fill="#B5C6EA" d="M65 55h12v14H65z"/>
+        <path fill="#2921FC" d="M65 69h12v7H65z"/>
+        <path stroke="#5E5E5E" stroke-linecap="square" d="M64.5 54.5h13"/>
+        <g transform="translate(6 48)">
+            <use fill="#2921FC" xlink:href="#g"/>
+            <path stroke="#5E5E5E" d="M40.5 31.5v6h31v-6h-1v-3h-11v3h-19z"/>
+        </g>
+        <path fill="#B5C6EA" d="M47 80h30v2H47z"/>
+        <g transform="translate(6 48)">
+            <use fill="#D5D5D5" xlink:href="#h"/>
+            <path stroke="#5E5E5E" d="M12.5 28.5V.5H10A9.5 9.5 0 0 0 .5 10v9a9.5 9.5 0 0 0 9.5 9.5h2.5z"/>
+        </g>
+        <path fill="#979797" d="M18 54H7.936A9 9 0 0 1 16 49h2v5zM52 54h8v3h-8z"/>
+        <g>
+            <use fill="#ED3209" xlink:href="#i"/>
+            <circle cx="84" cy="16" r="7.5" stroke="#000" stroke-opacity=".4"/>
+        </g>
+    </g>
+</svg>

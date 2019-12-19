@@ -1,0 +1,122 @@
+{% load static %}
+{% comment %}
+{% endcomment %}
+
+<main id="album"  role="main">
+
+  <section class="jumbotron text-center" style="margin:0!important">
+    <div class="container">
+      <!-- <h1 class="jumbotron-heading">Album example</h1> -->
+      <h1 class="jumbotron-heading">Пример продукта</h1>
+    <!--   <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+      <p> -->
+        <p class="lead text-muted">
+          Поиграйте прямо здесь, на сайте (бесплатно, без регистрации и рекламы, на ПК или ноутбуке). Вам понравится!
+           
+          <!-- <span>- меньше аварий на производстве:</span> </br>
+          <span>- меньше нагрузка на преподавателей и опытных коллег:</span> </br>
+          <span>- можно виртуально побывать в аварийной ситуации:</span> </br> -->
+        <p>
+
+
+        <!-- <a href="#" class="btn btn-primary my-2">Main call to action</a> -->
+        <!-- <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
+      </p>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row">
+
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <a href="{% url 'project:foundry' %}" >
+            <img id="foundryProject" src="{% static 'base/images/color.png' %}" style="display: block;margin: 0 auto;max-width:100%;max-height:225px;">
+            </a>
+            <div class="card-body">
+              <p class="card-text">Симулятор литейного производства</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                </div>
+                <small class="text-muted">Web version (70 МБ)</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+{% comment %}
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <a href="{% url 'project:webgl_visual' %}" >
+            <img src="{% static 'base/images/color.png' %}" style="display: block;margin: 0 auto;max-width:100%;max-height:225px;">
+            </a>
+            <div class="card-body">
+              <p class="card-text">Симулятор рабочего литейного цеха</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                </div>
+                <small class="text-muted">Desktop & Web (PC/Mac/Linux)</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <a href="{% url 'project:build_webgldemo_03' %}" >
+            <img src="{% static 'base/images/menu.png' %}" style="display: block;margin: 0 auto;max-width:100%;max-height:225px;">
+            </a>
+            <div class="card-body">
+              <p class="card-text">Симулятор работы с пультами в цеху</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                </div>
+                <small class="text-muted">Desktop & Web (PC/Mac/Linux)</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <a href="{% url 'project:tank' %}" >
+            <img src="{% static 'base/images/tank.png' %}" style="display: block;margin: 0 auto;max-width:100%;max-height:225px;">
+            </a>
+            <div class="card-body">
+              <p class="card-text">Симулятор танкиста</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                </div>
+                <small class="text-muted">Desktop & Web (PC/Mac/Linux)</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <a href="https://play.google.com/store/apps/details?id=com.HelpingAnimalsGames.ChickenCrane3D&hl=en" >
+            <img src="{% static 'base/images/crane_wide.png' %}" style="display: block;margin: 0 auto;max-width:100%;max-height:225px;">
+            </a>
+            <div class="card-body">
+              <p class="card-text">Симулятор мостового крана</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                </div>
+                <small class="text-muted">Android</small>
+              </div>
+            </div>
+          </div>
+        </div>
+{% endcomment %}
+
+      </div>
+    </div>
+  </div>
+
+</main>

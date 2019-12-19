@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <path id="a" d="M18 16h48v9H18z"/>
+        <path id="b" d="M12.6 28.074a6.44 6.44 0 0 0 6.439-6.44c0-3.556 1.479-5.634-6.44-5.634-7.918 0-6.44 1-6.44 5.635a6.44 6.44 0 0 0 6.44 6.44z"/>
+        <path id="c" d="M71.6 28.074a6.44 6.44 0 0 0 6.439-6.44c0-3.556 1.479-5.634-6.44-5.634-7.918 0-6.44 1-6.44 5.635a6.44 6.44 0 0 0 6.44 6.44z"/>
+        <path id="d" d="M39 11h3l2-6h3v10h-8z"/>
+        <filter id="e" width="125%" x="-12.5%" filterUnits="objectBoundingBox">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.38 0"/>
+        </filter>
+        <path id="f" d="M35 11h3l2-6h3v10h-8z"/>
+        <filter id="g" width="125%" x="-12.5%" filterUnits="objectBoundingBox">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.38 0"/>
+        </filter>
+        <path id="h" d="M33 6v5.5a2.5 2.5 0 0 1-2.5 2.5H30a2 2 0 0 1-2-2 2 2 0 0 0-2-2h-2a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3z"/>
+        <path id="i" d="M32 67h20v23H32z"/>
+        <filter id="j" width="105%" height="104.3%" x="-2.5%" y="-2.2%" filterUnits="objectBoundingBox">
+            <feOffset dx="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+            <feOffset dx="-1" in="SourceAlpha" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <path id="k" d="M6 61h72v6H6z"/>
+        <path id="l" d="M18 56h49v6H18z"/>
+        <path id="m" d="M6 53h6v9H6z"/>
+        <path id="n" d="M72 53h6v9h-6z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(8 5)">
+            <use fill="#DADADA" xlink:href="#a"/>
+            <path stroke="#414141" d="M18.5 16.5h47v8h-47z"/>
+            <path fill="#414141" d="M19 18h46v1H19zM19 20h46v1H19zM19 22h46v1H19z"/>
+            <circle cx="3.5" cy="19.5" r="3.5" fill="#414141"/>
+            <use fill="#FFF" xlink:href="#b"/>
+            <path stroke="#414141" d="M12.6 27.574a5.94 5.94 0 0 0 5.939-5.94c0-.42.016-.782.055-1.399.114-1.78.05-2.286-.456-2.752-.706-.65-2.378-.983-5.539-.983-3.398 0-4.934.195-5.58.674-.471.35-.523.753-.415 2.738.038.701.056 1.176.056 1.723a5.94 5.94 0 0 0 5.94 5.94z"/>
+            <g transform="matrix(-1 0 0 1 143.198 0)">
+                <use fill="#FFF" xlink:href="#c"/>
+                <path stroke="#414141" d="M71.6 27.574a5.94 5.94 0 0 0 5.939-5.94c0-.42.016-.782.055-1.399.114-1.78.05-2.286-.456-2.752-.706-.65-2.378-.983-5.539-.983-3.398 0-4.934.195-5.58.674-.471.35-.523.753-.415 2.738.038.701.056 1.176.056 1.723a5.94 5.94 0 0 0 5.94 5.94z"/>
+            </g>
+            <circle cx="80.5" cy="19.5" r="3.5" fill="#414141"/>
+            <path fill="#414141" d="M2 16h16v1H2zM66 16h16v1H66z"/>
+            <use fill="#DADADA" xlink:href="#d"/>
+            <use fill="#000" filter="url(#e)" xlink:href="#d"/>
+            <path stroke="#414141" d="M39.5 11.5v3h7v-9h-2.14l-2 6H39.5z"/>
+            <g transform="matrix(-1 0 0 1 78 0)">
+                <use fill="#DADADA" xlink:href="#f"/>
+                <use fill="#000" filter="url(#g)" xlink:href="#f"/>
+                <path stroke="#414141" d="M35.5 11.5v3h7v-9h-2.14l-2 6H35.5z"/>
+            </g>
+            <path fill="#000" d="M40 3h2v17h-2z"/>
+            <rect width="4" height="5" x="39" fill="#000" rx="2"/>
+            <path fill="#000" d="M23 1l17 1v1L23 2z"/>
+            <rect width="4" height="7" x="39" y="13" fill="#000" rx="2"/>
+            <g>
+                <use fill="#FFF" xlink:href="#h"/>
+                <path stroke="#000" stroke-opacity=".5" d="M32.5 6A2.5 2.5 0 0 0 30 3.5h-6A2.5 2.5 0 0 0 21.5 6v1A2.5 2.5 0 0 0 24 9.5h2a2.5 2.5 0 0 1 2.5 2.5 1.5 1.5 0 0 0 1.5 1.5h.5a2 2 0 0 0 2-2V6z"/>
+            </g>
+            <rect width="3" height="2" x="29" y="14" fill="#000" rx="1"/>
+        </g>
+        <g transform="translate(8 5)">
+            <use fill="#FFF" xlink:href="#i"/>
+            <use fill="#000" filter="url(#j)" xlink:href="#i"/>
+        </g>
+        <g transform="translate(8 5)">
+            <use fill="#FFF" xlink:href="#k"/>
+            <path stroke="#000" stroke-opacity=".5" d="M6.5 61.5v5h71v-5h-71z"/>
+        </g>
+        <g transform="translate(8 5)">
+            <use fill="#C0B9B3" xlink:href="#l"/>
+            <path stroke="#000" stroke-opacity=".5" d="M18.5 56.5v5h48v-5h-48z"/>
+        </g>
+        <g transform="translate(8 5)">
+            <use fill="#FFF" xlink:href="#m"/>
+            <path stroke="#000" stroke-opacity=".5" d="M6.5 53.5h5v8h-5z"/>
+        </g>
+        <g transform="translate(8 5)">
+            <use fill="#FFF" xlink:href="#n"/>
+            <path stroke="#000" stroke-opacity=".5" d="M72.5 53.5h5v8h-5z"/>
+        </g>
+        <path fill="#414141" stroke="#414141" stroke-linecap="square" d="M37.5 60.5V30.48M37.5 30.48l-3 10.8h6l-3-10.8zM63.5 60.5V30.48M63.5 30.48l-3 10.8h6l-3-10.8z"/>
+    </g>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+        <path id="a" d="M22 37.984A7.5 7.5 0 0 0 29.984 30H30V0h14v44a8 8 0 0 1-8 8H0V38h22v-.016z"/>
+        <path id="b" d="M22 35.984A7.5 7.5 0 0 0 29.984 28H30V0h14v42a8 8 0 0 1-8 8H0V36h22v-.016z"/>
+        <path id="c" d="M0 0h62v66H0z"/>
+        <path id="d" d="M7 4h48a3 3 0 0 1 3 3v52a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3z"/>
+        <path id="e" d="M3 0h30a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V3a3 3 0 0 1 3-3z"/>
+        <path id="f" d="M3 0h30a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V3a3 3 0 0 1 3-3z"/>
+        <path id="g" d="M89 28.27v4.757h-5.708V36L76 30.649 83.292 25v3.27z"/>
+        <path id="h" d="M89 89.27v4.757h-5.708V97L76 91.649 83.292 86v3.27z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(68 2)">
+            <use fill="#B7B8B2" xlink:href="#a"/>
+            <path stroke="#000" stroke-opacity=".32" stroke-width="2" d="M30.986 31a8.633 8.633 0 0 0-.005-1.066l-.997.066v1h1.002zM31 1V0l-1 1h1zm12 0h1l-1-1v1zM1 51H0l1 1v-1zm0-12v-1l-1 1h1zm22-.014v-1.002h-1l-.066.997a8.612 8.612 0 0 0 1.066.005z"/>
+        </g>
+        <path fill="#B7B8B2" d="M100 2h10v2h-10z"/>
+        <g fill="#7C7C78">
+            <path d="M85 45h2v2h-2zM82 43h2v2h-2zM89 45h2v2h-2zM88 49h2v2h-2zM91 48h2v2h-2zM83 48h2v2h-2zM71 46h2v2h-2zM76 44h2v2h-2zM77 48h2v2h-2zM87 47h1v1h-1zM93 45h1v1h-1zM87 44h1v1h-1zM89 43h1v1h-1z"/>
+        </g>
+        <g fill="#7C7C78">
+            <path d="M101 17h2v2h-2zM102 14h2v2h-2zM105 11h2v2h-2zM101 8h2v2h-2zM106 3h2v2h-2zM103 4h2v2h-2zM105 18h2v2h-2zM106 15h2v2h-2zM104 22h2v2h-2zM107 21h2v2h-2zM101 21h2v2h-2zM103 20h1v1h-1zM108 18h1v1h-1zM108 14h1v1h-1zM104 16h1v1h-1zM101 15h1v1h-1zM101 12h1v1h-1zM102 11h1v1h-1zM104 13h1v1h-1zM104 9h1v1h-1zM105 8h1v1h-1zM106 10h1v1h-1zM108 11h1v1h-1zM106 14h1v1h-1zM107 9h1v1h-1zM108 9h1v1h-1zM108 7h1v1h-1zM104 7h1v1h-1zM101 6h1v1h-1zM102 4h1v1h-1zM101 3h1v1h-1zM104 3h1v1h-1zM107 5h1v1h-1zM108 4h1v1h-1zM106 6h1v1h-1z"/>
+        </g>
+        <g fill="#7C7C78">
+            <path d="M107 25h2v2h-2zM104 28h2v2h-2zM101 24h2v2h-2zM105 31h2v2h-2zM104 34h2v2h-2zM101 36h2v2h-2zM101 40h2v2h-2zM107 39h2v2h-2zM105 41h2v2h-2zM102 45h2v2h-2zM98 48h2v2h-2zM105 47h2v2h-2zM102 49h2v2h-2zM94 43h2v2h-2zM97 41h2v2h-2zM107 29h2v2h-2zM101 30h2v2h-2zM102 28h1v1h-1zM106 25h1v1h-1zM104 26h1v1h-1zM107 28h1v1h-1zM103 32h1v1h-1zM101 34h1v1h-1zM108 34h1v1h-1zM107 35h1v1h-1zM108 36h1v1h-1zM106 38h1v1h-1zM105 37h1v1h-1zM102 38h1v1h-1zM104 38h1v1h-1zM104 40h1v1h-1zM99 39h1v1h-1zM92 43h1v1h-1zM97 43h1v1h-1zM99 46h1v1h-1zM94 50h1v1h-1zM92 47h1v1h-1zM96 50h1v1h-1zM97 45h1v1h-1zM108 42h1v1h-1zM100 50h1v1h-1zM105 50h1v1h-1zM86 50h1v1h-1zM82 50h1v1h-1zM82 47h1v1h-1zM79 47h1v1h-1zM76 48h1v1h-1zM72 48h1v1h-1zM71 43h1v1h-1zM73 43h1v1h-1zM72 44h1v1h-1zM75 43h1v1h-1zM78 44h1v1h-1zM77 43h1v1h-1zM80 43h1v1h-1zM80 45h1v1h-1zM79 46h1v1h-1zM80 49h1v1h-1zM79 50h1v1h-1zM75 50h1v1h-1zM74 49h1v1h-1zM73 50h1v1h-1zM71 50h1v1h-1zM75 47h1v1h-1zM74 46h1v1h-1zM77 46h1v1h-1zM83 45h1v1h-1zM85 43h1v1h-1zM94 48h1v1h-1zM96 47h1v1h-1zM100 47h1v1h-1zM107 44h1v1h-1zM108 46h1v1h-1zM103 43h1v1h-1zM100 42h1v1h-1zM99 44h1v1h-1zM105 45h1v1h-1z"/>
+        </g>
+        <g>
+            <g transform="matrix(1 0 0 -1 68 118)">
+                <use fill="#B7B8B2" xlink:href="#b"/>
+                <path stroke="#000" stroke-opacity=".32" stroke-width="2" d="M30.986 29a8.633 8.633 0 0 0-.005-1.066l-.997.066v1h1.002zM31 1V0l-1 1h1zm12 0h1l-1-1v1zM1 49H0l1 1v-1zm0-12v-1l-1 1h1zm22-.014v-1.002h-1l-.066.997a8.612 8.612 0 0 0 1.066.005z"/>
+            </g>
+            <path fill="#B7B8B2" d="M100 118h10v-2h-10z"/>
+        </g>
+        <g>
+            <g transform="translate(8 27)">
+                <use fill="#B7B8B2" xlink:href="#c"/>
+                <path stroke="#000" stroke-opacity=".32" d="M.5.5h61v65H.5z"/>
+            </g>
+            <g transform="translate(8 27)">
+                <use fill="#8D8B8C" xlink:href="#d"/>
+                <path stroke="#000" stroke-opacity=".4" d="M7 4.5A2.5 2.5 0 0 0 4.5 7v52A2.5 2.5 0 0 0 7 61.5h48a2.5 2.5 0 0 0 2.5-2.5V7A2.5 2.5 0 0 0 55 4.5H7z"/>
+            </g>
+            <g transform="translate(21 41)">
+                <use fill="#B7B8B2" xlink:href="#e"/>
+                <path stroke="#000" stroke-opacity=".56" d="M3 .5A2.5 2.5 0 0 0 .5 3v10A2.5 2.5 0 0 0 3 15.5h30a2.5 2.5 0 0 0 2.5-2.5V3A2.5 2.5 0 0 0 33 .5H3z"/>
+                <rect width="3" height="8" x="9" y="4" fill="#000" rx="1.5"/>
+                <rect width="3" height="8" x="16" y="4" fill="#000" rx="1.5"/>
+                <rect width="3" height="8" x="23" y="4" fill="#000" rx="1.5"/>
+            </g>
+            <g transform="translate(21 63)">
+                <use fill="#B7B8B2" xlink:href="#f"/>
+                <path stroke="#000" stroke-opacity=".56" d="M3 .5A2.5 2.5 0 0 0 .5 3v10A2.5 2.5 0 0 0 3 15.5h30a2.5 2.5 0 0 0 2.5-2.5V3A2.5 2.5 0 0 0 33 .5H3z"/>
+                <rect width="3" height="8" x="9" y="4" fill="#000" rx="1.5"/>
+                <rect width="3" height="8" x="16" y="4" fill="#000" rx="1.5"/>
+                <rect width="3" height="8" x="23" y="4" fill="#000" rx="1.5"/>
+            </g>
+        </g>
+        <g>
+            <use fill="#8D8B8C" xlink:href="#g"/>
+            <path stroke="#000" stroke-opacity=".4" d="M88.5 28.77h-5.708v-2.75l-5.962 4.618 5.962 4.375v-2.486H88.5V28.77z"/>
+        </g>
+        <g transform="matrix(-1 0 0 1 165 0)">
+            <use fill="#8D8B8C" xlink:href="#h"/>
+            <path stroke="#000" stroke-opacity=".4" d="M88.5 89.77h-5.708v-2.75l-5.962 4.618 5.962 4.375v-2.486H88.5V89.77z"/>
+        </g>
+    </g>
+</svg>

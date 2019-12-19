@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+        <path id="a" d="M28 47h30v50H28z"/>
+        <filter id="b" width="103.3%" height="102%" x="-1.7%" y="-1%" filterUnits="objectBoundingBox">
+            <feOffset dx="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+            <feOffset dx="-1" in="SourceAlpha" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <path id="c" d="M15 46h56v4H15z"/>
+        <filter id="d" width="107.1%" height="200%" x="-3.6%" y="-50%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="1"/>
+            <feOffset dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.38 0"/>
+        </filter>
+        <path id="e" d="M26 12h34v22H26z"/>
+        <filter id="f" width="111.8%" height="118.2%" x="-5.9%" y="-9.1%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="1"/>
+            <feOffset dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.38 0"/>
+        </filter>
+        <path id="g" d="M14 0h58v12H14z"/>
+        <path id="h" d="M0 38h86v8H0z"/>
+        <path id="i" d="M43 19l42 20H1z"/>
+        <path id="j" d="M0 16h8v23H0z"/>
+        <path id="k" d="M2 12h4v5H2z"/>
+        <path id="l" d="M78 16h8v23h-8z"/>
+        <path id="m" d="M80 12h4v5h-4z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(17 23)">
+            <use fill="#DADADA" xlink:href="#a"/>
+            <use fill="#000" filter="url(#b)" xlink:href="#a"/>
+        </g>
+        <g transform="translate(17 23)">
+            <use fill="#595959" xlink:href="#c"/>
+            <use fill="#000" filter="url(#d)" xlink:href="#c"/>
+            <path stroke="#000" stroke-opacity=".12" d="M15.5 46.5v3h55v-3h-55z"/>
+        </g>
+        <g transform="translate(17 23)">
+            <use fill="#595959" xlink:href="#e"/>
+            <use fill="#000" filter="url(#f)" xlink:href="#e"/>
+            <path stroke="#000" stroke-opacity=".12" d="M26.5 12.5h33v21h-33z"/>
+        </g>
+        <g transform="translate(17 23)">
+            <use fill="#595959" xlink:href="#g"/>
+            <path stroke="#000" stroke-opacity=".12" d="M14.5.5h57v11h-57z"/>
+        </g>
+        <g transform="translate(17 23)">
+            <use fill="#E7CF6A" xlink:href="#h"/>
+            <path stroke="#000" stroke-opacity=".5" d="M.5 38.5v7h85v-7H.5z"/>
+        </g>
+        <g transform="translate(17 23)">
+            <use fill="#E7CF6A" xlink:href="#i"/>
+            <path stroke="#000" stroke-opacity=".5" d="M43 19.554L3.213 38.5h79.574L43 19.554z"/>
+        </g>
+        <g transform="translate(17 23)">
+            <use fill="#E7CF6A" xlink:href="#j"/>
+            <path stroke="#000" stroke-opacity=".5" d="M.5 16.5h7v22h-7z"/>
+        </g>
+        <g transform="translate(17 23)">
+            <use fill="#E7CF6A" xlink:href="#k"/>
+            <path stroke="#000" stroke-opacity=".5" d="M2.5 12.5h3v4h-3z"/>
+        </g>
+        <g transform="translate(17 23)">
+            <use fill="#E7CF6A" xlink:href="#l"/>
+            <path stroke="#000" stroke-opacity=".5" d="M78.5 16.5h7v22h-7z"/>
+        </g>
+        <g transform="translate(17 23)">
+            <use fill="#E7CF6A" xlink:href="#m"/>
+            <path stroke="#000" stroke-opacity=".5" d="M80.5 12.5h3v4h-3z"/>
+        </g>
+    </g>
+</svg>

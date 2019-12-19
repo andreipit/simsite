@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <path id="a" d="M5 10h50v10H5z"/>
+        <path id="b" d="M5 4h50v7H5z"/>
+        <path id="c" d="M1 0h58v5H1z"/>
+        <path id="d" d="M0 14h10v10H0z"/>
+        <path id="e" d="M50 14h10v10H50z"/>
+        <path id="f" d="M3 2h2v7H3z"/>
+        <path id="g" d="M54 0h11a5 5 0 0 1 0 10H54V0z"/>
+        <ellipse id="h" cx="42" cy="5" rx="2" ry="5"/>
+        <ellipse id="i" cx="28" cy="5" rx="2" ry="5"/>
+        <ellipse id="j" cx="14" cy="5" rx="2" ry="5"/>
+        <ellipse id="k" cx="1" cy="5" rx="1" ry="4"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(17 48)">
+            <use fill="#FFEB98" xlink:href="#a"/>
+            <path stroke="#000" stroke-opacity=".4" d="M5.5 10.5h49v9h-49z"/>
+        </g>
+        <g transform="translate(17 48)">
+            <use fill="#FFEB98" xlink:href="#b"/>
+            <path stroke="#000" stroke-opacity=".4" d="M5.5 4.5h49v6h-49z"/>
+        </g>
+        <g transform="translate(17 48)">
+            <use fill="#FFEB98" xlink:href="#c"/>
+            <path stroke="#000" stroke-opacity=".4" d="M1.5.5h57v4h-57z"/>
+        </g>
+        <path fill="#000" d="M18 48h5v5h-5zM71 48h5v5h-5z"/>
+        <g transform="translate(17 48)">
+            <use fill="#FFEB98" xlink:href="#d"/>
+            <path stroke="#000" stroke-opacity=".4" d="M.5 14.5h9v9h-9z"/>
+        </g>
+        <g transform="translate(17 48)">
+            <use fill="#FFEB98" xlink:href="#e"/>
+            <path stroke="#000" stroke-opacity=".4" d="M50.5 14.5h9v9h-9z"/>
+        </g>
+        <path fill="#000" d="M73 39h1v9h-1z"/>
+        <g transform="translate(17 39)">
+            <use fill="#D5D5D5" xlink:href="#f"/>
+            <path stroke="#000" stroke-opacity=".4" d="M3.5 2.5v6h1v-6h-1z"/>
+        </g>
+        <path fill="#000" d="M71 39h5v2h-5z"/>
+        <g>
+            <path fill="#D5D5D5" d="M16.201 40.88l65.358-9.185.278 1.98-65.357 9.186z"/>
+            <g transform="rotate(-8 271.81 -93.405)">
+                <use fill="#D5D5D5" xlink:href="#g"/>
+                <path stroke="#000" stroke-opacity=".4" d="M54.5.5v9H65a4.5 4.5 0 1 0 0-9H54.5z"/>
+            </g>
+            <path fill="#646464" d="M73.637 32.809l3.961-.557.278 1.98-3.96.557z"/>
+            <g transform="rotate(-8 271.81 -93.405)">
+                <use fill="#D5D5D5" xlink:href="#h"/>
+                <ellipse cx="42" cy="5" stroke="#000" stroke-opacity=".4" rx="1.5" ry="4.5"/>
+            </g>
+            <g transform="rotate(-8 271.81 -93.405)">
+                <use fill="#D5D5D5" xlink:href="#i"/>
+                <ellipse cx="28" cy="5" stroke="#000" stroke-opacity=".4" rx="1.5" ry="4.5"/>
+            </g>
+            <g transform="rotate(-8 271.81 -93.405)">
+                <use fill="#D5D5D5" xlink:href="#j"/>
+                <ellipse cx="14" cy="5" stroke="#000" stroke-opacity=".4" rx="1.5" ry="4.5"/>
+            </g>
+            <g transform="rotate(-8 271.81 -93.405)">
+                <use fill="#D5D5D5" xlink:href="#k"/>
+                <ellipse cx="1" cy="5" stroke="#000" stroke-opacity=".4" rx="1" ry="3.5"/>
+            </g>
+        </g>
+    </g>
+</svg>

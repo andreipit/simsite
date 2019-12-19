@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <path id="a" d="M2 2h95v16H2z"/>
+        <filter id="b" width="101.1%" height="106.2%" x="-.5%" y="-3.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="-1" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.158769248 0"/>
+        </filter>
+        <path id="c" d="M46 2h8v61h-8z"/>
+        <filter id="d" width="112.5%" height="101.6%" x="-6.2%" y="-.8%" filterUnits="objectBoundingBox">
+            <feOffset dx="-1" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.48 0"/>
+            <feOffset dx="1" in="SourceAlpha" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.48 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <path id="e" d="M48 63h4v5h-4z"/>
+        <path id="f" d="M24 68h52v12H24z"/>
+        <path id="g" d="M40 58h20v6H40z"/>
+        <path id="h" d="M27 68h5v9h-5z"/>
+        <path id="i" d="M68 68h5v9h-5z"/>
+        <path id="j" d="M36 68h11v9H36z"/>
+        <path id="k" d="M53 68h11v9H53z"/>
+        <ellipse id="l" cx="18" cy="5" rx="6" ry="5"/>
+        <circle id="m" cx="4" cy="5" r="4"/>
+        <ellipse id="n" cx="10.5" cy="15.5" rx="2.5" ry="3.5"/>
+        <ellipse id="o" cx="16" cy="24" rx="4" ry="3"/>
+        <ellipse id="p" cx="10" cy="5" rx="6" ry="5"/>
+        <circle id="q" cx="19" cy="12" r="3"/>
+        <ellipse id="r" cx="2.5" cy="15.5" rx="2.5" ry="3.5"/>
+        <ellipse id="s" cx="8" cy="24" rx="4" ry="3"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <use fill="#8D8B8E" xlink:href="#a"/>
+            <use fill="#000" filter="url(#b)" xlink:href="#a"/>
+        </g>
+        <g>
+            <use fill="#CECEC6" xlink:href="#c"/>
+            <use fill="#000" filter="url(#d)" xlink:href="#c"/>
+        </g>
+        <g>
+            <use fill="#CECEC6" xlink:href="#e"/>
+            <path stroke="#000" stroke-opacity=".481" d="M48.5 63.5h3v4h-3z"/>
+        </g>
+        <g>
+            <use fill="#B7B8B2" xlink:href="#f"/>
+            <path stroke="#000" stroke-opacity=".32" d="M24.5 68.5v11h51v-11h-51z"/>
+        </g>
+        <g>
+            <use fill="#B7B8B2" xlink:href="#g"/>
+            <path stroke="#000" stroke-opacity=".32" d="M40.5 58.5h19v5h-19z"/>
+        </g>
+        <path fill="#7C7C78" d="M44 59h3v4h-3z"/>
+        <g>
+            <use fill="#8D8B8C" xlink:href="#h"/>
+            <path stroke="#000" stroke-opacity=".32" d="M27.5 68.5h4v8h-4z"/>
+        </g>
+        <g>
+            <use fill="#8D8B8C" xlink:href="#i"/>
+            <path stroke="#000" stroke-opacity=".32" d="M68.5 68.5h4v8h-4z"/>
+        </g>
+        <g>
+            <use fill="#8D8B8C" xlink:href="#j"/>
+            <path stroke="#000" stroke-opacity=".32" d="M36.5 68.5h10v8h-10z"/>
+        </g>
+        <g>
+            <use fill="#8D8B8C" xlink:href="#k"/>
+            <path stroke="#000" stroke-opacity=".32" d="M53.5 68.5h10v8h-10z"/>
+        </g>
+        <g transform="translate(9 31)">
+            <use fill="#E1E0CE" xlink:href="#l"/>
+            <ellipse cx="18" cy="5" stroke="#000" stroke-opacity=".16" rx="5.5" ry="4.5"/>
+        </g>
+        <g transform="translate(9 31)">
+            <use fill="#E1E0CE" xlink:href="#m"/>
+            <circle cx="4" cy="5" r="3.5" stroke="#000" stroke-opacity=".16"/>
+        </g>
+        <g transform="translate(9 31)">
+            <use fill="#E1E0CE" xlink:href="#n"/>
+            <ellipse cx="10.5" cy="15.5" stroke="#000" stroke-opacity=".16" rx="2" ry="3"/>
+        </g>
+        <g transform="translate(9 31)">
+            <use fill="#E1E0CE" xlink:href="#o"/>
+            <ellipse cx="16" cy="24" stroke="#000" stroke-opacity=".16" rx="3.5" ry="2.5"/>
+        </g>
+        <g>
+            <g transform="translate(66 31)">
+                <use fill="#E1E0CE" xlink:href="#p"/>
+                <ellipse cx="10" cy="5" stroke="#000" stroke-opacity=".16" rx="5.5" ry="4.5"/>
+            </g>
+            <g transform="translate(66 31)">
+                <use fill="#E1E0CE" xlink:href="#q"/>
+                <circle cx="19" cy="12" r="2.5" stroke="#000" stroke-opacity=".16"/>
+            </g>
+            <g transform="translate(66 31)">
+                <use fill="#E1E0CE" xlink:href="#r"/>
+                <ellipse cx="2.5" cy="15.5" stroke="#000" stroke-opacity=".16" rx="2" ry="3"/>
+            </g>
+            <g transform="translate(66 31)">
+                <use fill="#E1E0CE" xlink:href="#s"/>
+                <ellipse cx="8" cy="24" stroke="#000" stroke-opacity=".16" rx="3.5" ry="2.5"/>
+            </g>
+        </g>
+    </g>
+</svg>

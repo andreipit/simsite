@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+        <path id="a" d="M0 29L47 0l69 29v16L47 16 0 46z"/>
+        <path id="b" d="M0 44l47-29 69 29v20L47 35 0 65z"/>
+        <circle id="c" cx="16.5" cy="43.5" r="2.5"/>
+        <circle id="d" cx="6.5" cy="50.5" r="2.5"/>
+        <circle id="e" cx="26.5" cy="37.5" r="2.5"/>
+        <circle id="f" cx="36.5" cy="31.5" r="2.5"/>
+        <circle id="g" cx="46.5" cy="25.5" r="2.5"/>
+        <circle id="h" cx="56.5" cy="28.5" r="2.5"/>
+        <circle id="i" cx="66.5" cy="32.5" r="2.5"/>
+        <circle id="j" cx="76.5" cy="36.5" r="2.5"/>
+        <circle id="k" cx="86.5" cy="41.5" r="2.5"/>
+        <circle id="l" cx="96.5" cy="45.5" r="2.5"/>
+        <circle id="m" cx="106.5" cy="50.5" r="2.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#000" stroke-opacity=".5" d="M11 109h14V99h14v10h14.002V99H67v10h14.031V99H95v10h14"/>
+        <g transform="translate(2 11)">
+            <use fill="#D3D3D3" xlink:href="#a"/>
+            <path stroke="#000" stroke-opacity=".419" d="M.5 29.279v15.809l46.452-29.65 68.548 28.81V29.331L47.044.561.5 29.279z"/>
+        </g>
+        <g transform="translate(2 11)">
+            <use fill="#C1C1C1" xlink:href="#b"/>
+            <path stroke="#000" stroke-opacity=".419" d="M.5 44.279v19.809l46.452-29.65 68.548 28.81V44.331L47.044 15.561.5 44.279z"/>
+        </g>
+        <g transform="translate(2 11)">
+            <use fill="#C1C1C1" xlink:href="#c"/>
+            <circle cx="16.5" cy="43.5" r="2" stroke="#000" stroke-opacity=".48"/>
+        </g>
+        <g transform="translate(2 11)">
+            <use fill="#C1C1C1" xlink:href="#d"/>
+            <circle cx="6.5" cy="50.5" r="2" stroke="#000" stroke-opacity=".48"/>
+        </g>
+        <g transform="translate(2 11)">
+            <use fill="#C1C1C1" xlink:href="#e"/>
+            <circle cx="26.5" cy="37.5" r="2" stroke="#000" stroke-opacity=".48"/>
+        </g>
+        <g transform="translate(2 11)">
+            <use fill="#C1C1C1" xlink:href="#f"/>
+            <circle cx="36.5" cy="31.5" r="2" stroke="#000" stroke-opacity=".48"/>
+        </g>
+        <g transform="translate(2 11)">
+            <use fill="#C1C1C1" xlink:href="#g"/>
+            <circle cx="46.5" cy="25.5" r="2" stroke="#000" stroke-opacity=".48"/>
+        </g>
+        <g transform="translate(2 11)">
+            <use fill="#C1C1C1" xlink:href="#h"/>
+            <circle cx="56.5" cy="28.5" r="2" stroke="#000" stroke-opacity=".48"/>
+        </g>
+        <g transform="translate(2 11)">
+            <use fill="#C1C1C1" xlink:href="#i"/>
+            <circle cx="66.5" cy="32.5" r="2" stroke="#000" stroke-opacity=".48"/>
+        </g>
+        <g transform="translate(2 11)">
+            <use fill="#C1C1C1" xlink:href="#j"/>
+            <circle cx="76.5" cy="36.5" r="2" stroke="#000" stroke-opacity=".48"/>
+        </g>
+        <g transform="translate(2 11)">
+            <use fill="#C1C1C1" xlink:href="#k"/>
+            <circle cx="86.5" cy="41.5" r="2" stroke="#000" stroke-opacity=".48"/>
+        </g>
+        <g transform="translate(2 11)">
+            <use fill="#C1C1C1" xlink:href="#l"/>
+            <circle cx="96.5" cy="45.5" r="2" stroke="#000" stroke-opacity=".48"/>
+        </g>
+        <g transform="translate(2 11)">
+            <use fill="#C1C1C1" xlink:href="#m"/>
+            <circle cx="106.5" cy="50.5" r="2" stroke="#000" stroke-opacity=".48"/>
+        </g>
+        <path fill="#C1C1C1" d="M2 56h1v18H2z"/>
+        <path fill="#D3D3D3" d="M2 41h1v14H2zM117 41h1v14h-1z"/>
+        <path fill="#C1C1C1" d="M117 56h1v18h-1z"/>
+        <path fill="#A0124F" d="M28.5 49L33 60.556C32.946 63.519 31.446 65 28.5 65c-2.946 0-4.446-1.481-4.5-4.444L28.5 49zM68.5 44L73 55.556C72.946 58.519 71.446 60 68.5 60c-2.946 0-4.446-1.481-4.5-4.444L68.5 44zM98.5 57l4.5 11.556c-.054 2.963-1.554 4.444-4.5 4.444-2.946 0-4.446-1.481-4.5-4.444L98.5 57zM48.5 37L53 48.556C52.946 51.519 51.446 53 48.5 53c-2.946 0-4.446-1.481-4.5-4.444L48.5 37z"/>
+    </g>
+</svg>

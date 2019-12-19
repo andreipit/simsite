@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <circle id="a" cx="23" cy="23" r="23"/>
+        <circle id="b" cx="23" cy="23" r="19"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(27 27)">
+            <use fill="#FFF" xlink:href="#a"/>
+            <circle cx="23" cy="23" r="22.521" stroke="#000" stroke-opacity=".72" stroke-width=".958"/>
+        </g>
+        <g transform="translate(27 27)">
+            <use fill="#F9F92D" xlink:href="#b"/>
+            <circle cx="23" cy="23" r="18.604" stroke="#000" stroke-opacity=".72" stroke-width=".792"/>
+        </g>
+        <path fill="#000" fill-rule="nonzero" d="M46.59 54.58l-5.17-5.17L40 50.82l6.59 6.59 13-13L58.18 43z"/>
+        <path fill="#ED3209" d="M8 49h14v1H8zM78 49h14v1H78zM50 8h1v14h-1zM50 78h1v14h-1z"/>
+        <g fill="#ED3209">
+            <path d="M77.757 16.739l.766.642-9 10.725-.765-.643zM31.476 71.894l.766.643-8.999 10.724-.766-.642z"/>
+        </g>
+        <g fill="#ED3209">
+            <path d="M83.761 77.257l-.642.766-10.725-9 .643-.765zM28.606 30.976l-.643.766-10.724-8.999.642-.766z"/>
+        </g>
+    </g>
+</svg>

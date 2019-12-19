@@ -1,0 +1,35 @@
+{% extends "base/base.html" %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'base/style.css' %}">
+{% block content %}
+    <div style="height:100px"></div>
+
+    <!-- img_autorotation 1<br> -->
+    <!-- MEDIA_URL = {#{MEDIA_URL}#}<br> -->
+    <!-- img_autorotation learn<br> -->
+    <div class="col-12 col-sm-8 col-md-8 col-lg-8">
+
+        <div class="row">
+            <div><a href="{% url 'project:img_autorotation_6_downloadall' %}">Скачать все картинки</a></div><hr></br>
+        </div>
+        <div class="row">
+            {% for img_name in images %} 
+                <div class="col-sm-6 col-md-3 col-lg-2 ">
+                    <div class="card mb-4 shadow-sm">
+
+                        <img style="display: block;margin: 0 auto;max-width:100%;max-height:100px;" src="{{MEDIA_URL}}products/predict/sideways/{{img_name}}">
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+
+
+    </div>
+
+
+{% endblock %}
+
+<!-- img_autorotation_start -->
+<!-- {#{each_img_rotation_info}#} -->
+

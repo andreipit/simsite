@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <path id="a" d="M27.093 41H32l4-4v30l-4-4H8l-4 4V37l4 4h5.15"/>
+        <path id="b" d="M9 25h22v10H9z"/>
+        <path id="c" d="M9 7h22v19H9z"/>
+        <path id="d" d="M0 37h5v30H0z"/>
+        <path id="e" d="M35 37h5v30h-5z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#D5D5D5" d="M57 52v6c0 2.21-3.134 4-7 4s-7-1.79-7-4v-6"/>
+        <g transform="translate(30 17)">
+            <use fill="#D5D5D5" xlink:href="#a"/>
+            <path stroke="#979797" d="M4.5 38.207v27.586L7.793 62.5h24.414l3.293 3.293V38.207L32.207 41.5H7.793L4.5 38.207z"/>
+        </g>
+        <path stroke="#979797" stroke-linecap="square" d="M34 58l2.5 2.5h8.503m9.997 0h8.5L66 58M45 52.5v8M55 52.5v8"/>
+        <g transform="translate(30 17)">
+            <use fill="#D8D8D8" xlink:href="#b"/>
+            <path stroke="#979797" d="M9.5 25.5h21v9h-21z"/>
+        </g>
+        <g transform="translate(30 17)">
+            <use fill="#D8D8D8" xlink:href="#c"/>
+            <path stroke="#979797" d="M9.5 7.5h21v18h-21z"/>
+        </g>
+        <path stroke="#979797" stroke-linecap="square" d="M34 80l2.5-2.5h27L66 80M35 62.5h31M35 75.5h31"/>
+        <g transform="translate(30 17)">
+            <use fill="#FFF" xlink:href="#d"/>
+            <path stroke="#979797" d="M.5 37.5h4v29h-4z"/>
+        </g>
+        <g transform="translate(30 17)">
+            <use fill="#FFF" xlink:href="#e"/>
+            <path stroke="#979797" d="M35.5 37.5h4v29h-4z"/>
+        </g>
+        <path stroke="#979797" stroke-linecap="square" d="M43 58.5V52M57 58.5V52"/>
+        <path fill="#F9F9F9" d="M35 66h30v6H35z"/>
+        <path fill="#979797" d="M49 21h2v4h-2zM43 17h14v4H43z"/>
+        <g stroke="#000" stroke-linecap="square">
+            <path d="M11.5 87.5L87 12M80.5 11.5h7v7"/>
+        </g>
+    </g>
+</svg>

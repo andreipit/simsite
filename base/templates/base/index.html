@@ -1,0 +1,21 @@
+{% extends "base/base.html" %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'base/style.css' %}">
+{% block content %}
+
+<!-- <div class="wrapper container" style="padding-right: 0px !important; padding-left: 0px !important; margin-right: 0px !important; margin-left: 0px !important;"> -->
+<!-- <div class="container" style="padding-right: 0px !important; padding-left: 0px !important; "> -->
+<!-- <div class="container"> -->
+    <!-- base / index page -->
+    {% include "base/bs/product.html" %}
+    {% include "base/bs/halfvideo.html" %}
+    {% include "base/bs/halfimage.html" %}
+    {% include "base/bs/album.html" %}
+    {% include "base/bs/pricing.html" %}
+
+    {% comment %}                        
+    <div class="container">{% include "base/bs/checkout.html" %}</div>
+    {% endcomment %} 
+<!-- </div> -->
+
+{% endblock %}

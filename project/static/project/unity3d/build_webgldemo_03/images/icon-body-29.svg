@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+        <path id="a" d="M41 54v11a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V0h71v38a8 8 0 0 1-8 8H49a8 8 0 0 0-8 8z"/>
+        <path id="b" d="M7 68h27v19H7z"/>
+        <path id="c" d="M9 91h23v8a2 2 0 0 1-2 2H11a2 2 0 0 1-2-2v-8z"/>
+        <path id="d" d="M2 86h37v6H2z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(26 4)">
+            <use fill="#D4DFE5" xlink:href="#a"/>
+            <path stroke="#000" stroke-opacity=".4" d="M70.5.5H.5V65A3.5 3.5 0 0 0 4 68.5h33a3.5 3.5 0 0 0 3.5-3.5V54a8.5 8.5 0 0 1 8.5-8.5h14a7.5 7.5 0 0 0 7.5-7.5V.5z"/>
+        </g>
+        <path fill="#D4DFE5" d="M27 4h69v3H27z"/>
+        <g transform="translate(26 4)">
+            <use fill="#80848D" xlink:href="#b"/>
+            <path stroke="#000" stroke-opacity=".4" d="M7.5 68.5h26v18h-26z"/>
+        </g>
+        <g transform="translate(26 4)">
+            <use fill="#F1F6F8" xlink:href="#c"/>
+            <path stroke="#000" stroke-opacity=".56" d="M9.5 91.5V99a1.5 1.5 0 0 0 1.5 1.5h19a1.5 1.5 0 0 0 1.5-1.5v-7.5h-22z"/>
+        </g>
+        <g transform="translate(26 4)">
+            <use fill="#80848D" xlink:href="#d"/>
+            <path stroke="#000" stroke-opacity=".4" d="M2.5 86.5h36v5h-36z"/>
+        </g>
+    </g>
+</svg>

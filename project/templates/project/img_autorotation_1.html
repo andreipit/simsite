@@ -1,0 +1,11 @@
+<!-- img_autorotation html -->
+
+<form action="{% url 'project:img_autorotation_2_uploadimg'%}" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <label for="files" class="btn">Выберите картинки с Вашего диска:</label>
+    <input type="file" id="some_id" name="avatar2" multiple="">
+    <input type="submit" value="Сохранить">
+    <input type="hidden" id="custId" name="product_id" value="1">
+    <input type="hidden" id="custId2" name="next" value="{{request.build_absolute_uri}}">
+    {#{form.captcha}#}
+</form>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <circle id="a" cx="84" cy="16" r="8"/>
+        <path id="b" d="M56 23.872c5.864 1.78 10 6.092 10 11.128 0 6.627-7.163 12-16 12s-16-5.373-16-12c0-5.036 4.136-9.348 10-11.128V13c0-1.657 2.686-3 6-3s6 1.343 6 3v10.872z"/>
+        <ellipse id="c" cx="50" cy="39" rx="16" ry="8"/>
+        <path id="d" d="M56 40v47H44V40c0-1.657 2.686-3 6-3s6 1.343 6 3z"/>
+        <path id="e" d="M50 90c3.314 0 6-1.343 6-3s-2.686-3-6-3-6 1.343-6 3 2.686 3 6 3z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <use fill="#48CB3C" xlink:href="#a"/>
+            <circle cx="84" cy="16" r="7.5" stroke="#000" stroke-opacity=".4"/>
+        </g>
+        <g>
+            <use fill="#D5D5D5" xlink:href="#b"/>
+            <path stroke="#000" stroke-opacity=".4" d="M55.855 24.35l-.355-.107V13c0-1.286-2.427-2.5-5.5-2.5s-5.5 1.214-5.5 2.5v11.243l-.355.108C38.345 26.11 34.5 30.31 34.5 35c0 6.315 6.913 11.5 15.5 11.5S65.5 41.315 65.5 35c0-4.69-3.845-8.888-9.645-10.65z"/>
+        </g>
+        <g>
+            <use fill="#D5D5D5" xlink:href="#c"/>
+            <ellipse cx="50" cy="39" stroke="#000" stroke-opacity=".4" rx="15.5" ry="7.5"/>
+        </g>
+        <g>
+            <use fill="#D5D5D5" xlink:href="#d"/>
+            <path stroke="#000" stroke-opacity=".4" d="M44.5 86.5h11V40c0-1.286-2.427-2.5-5.5-2.5s-5.5 1.214-5.5 2.5v46.5z"/>
+        </g>
+        <g>
+            <use fill="#D5D5D5" xlink:href="#e"/>
+            <path stroke="#000" stroke-opacity=".4" d="M50 89.5c3.073 0 5.5-1.214 5.5-2.5s-2.427-2.5-5.5-2.5-5.5 1.214-5.5 2.5 2.427 2.5 5.5 2.5z"/>
+        </g>
+    </g>
+</svg>

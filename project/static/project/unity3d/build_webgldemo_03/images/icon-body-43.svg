@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <path id="a" d="M57 0h100v100H57z"/>
+        <filter id="b" width="102%" height="102%" x="-1%" y="-1%" filterUnits="objectBoundingBox">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0.843776573 0 0 0 0 0.843776573 0 0 0 0 0.843776573 0 0 0 0.668478261 0"/>
+            <feOffset dx="-2" dy="-2" in="SourceAlpha" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.197650935 0 0 0 0 0.197650935 0 0 0 0 0.197650935 0 0 0 1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <path id="c" d="M32.093 5H52l4-4v36l-4-4H4l-4 4V1l4 4h20.15"/>
+        <path id="d" d="M0 28h5v38H0z"/>
+        <path id="e" d="M59 28h5v38h-5z"/>
+        <path id="f" d="M31.5 0h1v3h-1V0zm11.124 4.874l.63.777-2.332 1.888-.63-.777 2.332-1.888zm3.137 11.758l-.225.974-2.923-.675.225-.974 2.923.675zm-7.23 9.76l-.9.437-1.314-2.696.898-.438 1.316 2.696zm-12.163.437l-.899-.438 1.316-2.696.898.438-1.315 2.696zm-7.904-9.223l-.225-.974 2.923-.675.225.974-2.923.675zm2.283-11.955l.629-.777 2.331 1.888-.629.777-2.331-1.888z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(-57)">
+            <use fill="#F9F9F9" xlink:href="#a"/>
+            <use fill="#000" filter="url(#b)" xlink:href="#a"/>
+            <path stroke="#000" stroke-opacity=".38" d="M57.5.5h99v99h-99z"/>
+        </g>
+        <g transform="translate(18 20)">
+            <path fill="#D5D5D5" d="M36 28v5a4 4 0 1 1-8 0v-5"/>
+            <g transform="translate(4 28)">
+                <use fill="#D5D5D5" xlink:href="#c"/>
+                <path stroke="#979797" d="M.5 2.207v33.586L3.793 32.5h48.414l3.293 3.293V2.207L52.207 5.5H3.793L.5 2.207z"/>
+            </g>
+            <path stroke="#979797" stroke-linecap="square" d="M4 33l2.5 2.5h23.503m3.997 0h23.5L60 33M30 28.5v7M34 28.5v7M4 61l2.5-2.5h51L60 61M5 37.5h55M5 40.5h55M5 56.5h55M5 53.5h55"/>
+            <g>
+                <use fill="#FFF" xlink:href="#d"/>
+                <path stroke="#979797" d="M.5 28.5h4v37h-4z"/>
+            </g>
+            <g>
+                <use fill="#FFF" xlink:href="#e"/>
+                <path stroke="#979797" d="M59.5 28.5h4v37h-4z"/>
+            </g>
+            <path stroke="#979797" stroke-linecap="square" d="M28 33.5V28M36 33.5V28"/>
+            <circle cx="32" cy="14" r="14" fill="#FFF" stroke="#979797"/>
+            <circle cx="32" cy="14" r="2" fill="#979797"/>
+            <path fill="#979797" d="M32.737 12.71l-1.739 2.296-10.105-9.8z"/>
+            <g>
+                <use fill="#D8D8D8" xlink:href="#f"/>
+                <path stroke="#979797" d="M32 1.5V3l.5-.5h-1l.5.5V1.5zm0 0V0l-.5.5h1L32 0v1.5zm10.235 3.688l.63.778.074-.704-2.332 1.888.703.074-.629-.777-.074.703 2.332-1.888-.704-.074zm1.952 11.594l-1.462-.338.375.6.225-.975-.6.375 1.462.338zm0 0l1.461.337-.375-.6-.225.975.6-.375-1.461-.337zm-6.763 8.48l-.658-1.348-.23.669.899-.439-.669-.23.658 1.348zm0 0l.657 1.348.23-.668-.898.438.668.23-.657-1.348zm-10.848 0l.658-1.348-.669.23.9.439-.231-.67-.658 1.35zm0 0l-.657 1.348.668-.23-.898-.438.23.668.657-1.348zm-6.763-8.48l1.462-.338-.6-.375.225.975.375-.6-1.462.338zm0 0l-1.461.337.6.375-.225-.975-.375.6 1.461-.337zm2.414-10.576l1.166.944-.074-.703-.63.777.704-.074-1.166-.944zm0 0l-1.166-.944.074.704.63-.778-.704.074 1.166.944z"/>
+            </g>
+            <path fill="#F9F9F9" d="M5 44h54v6H5z"/>
+        </g>
+    </g>
+</svg>
